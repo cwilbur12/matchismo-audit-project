@@ -21,12 +21,13 @@
     
     NSMutableString *mutableContent = [[NSMutableString alloc]init];
     
-    if(self.numOfSymbols != 0)
+    if(self.numOfSymbols != 0){
         for(int i = 0; i<=self.numOfSymbols;i++){
             [mutableContent appendString:content];
         }
-    
-    content = mutableContent;
+        content = mutableContent;
+    }
+
     
     NSMutableAttributedString *contents = [[NSMutableAttributedString alloc] initWithString:content];
     
@@ -52,7 +53,7 @@
 }
 
 + (NSArray *)validColors{
-    return @[[UIColor blueColor], [UIColor yellowColor], [UIColor orangeColor]];
+    return @[[UIColor blueColor], [UIColor greenColor], [UIColor orangeColor]];
 }
 
 + (NSArray *)validShades{
