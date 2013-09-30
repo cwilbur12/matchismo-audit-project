@@ -13,6 +13,7 @@
 
 @property (strong,nonatomic) Deck *deckUsedForGame;
 @property (strong,nonatomic) NSArray *gameCards; //array of cards used for the game
+@property (nonatomic) NSUInteger score;
 
 //designated initializer
 - (id)initWithCardCount:(NSUInteger)numCards;
@@ -20,5 +21,7 @@
 - (NSAttributedString *)runGame;
 
 - (Card *)cardAtIndex:(NSUInteger)index;
+
+- (void)selectCardAtIndex:(NSUInteger) index;
 
 @end

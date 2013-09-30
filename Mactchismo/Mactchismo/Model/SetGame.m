@@ -48,5 +48,37 @@
     return self.gameCards[index];
 }
 
+- (void)selectCardAtIndex:(NSUInteger)index{
+    Card *card = [self cardAtIndex:index];
+    
+    card.faceUp = !card.faceUp;
+    
+    NSMutableArray *cardsSelected = [[NSMutableArray alloc]init];
+    
+    for(Card *cardToMatch in self.gameCards){
+        if(cardToMatch.isFaceUp){
+            [cardsSelected addObject:cardToMatch];
+            if([cardsSelected count] == 3){
+                NSUInteger score = [card match:cardsSelected];
+                NSLog([NSString stringWithFormat:@"Score: %d",score], @"score");
+                for(Card *cardsToUnplayable in cardsSelected){
+
+                    //if positive match score then make them unplayable
+                    if(score == 100){
+                        cardsToUnplayable.unplayable = YES;
+                        
+                    //else make them not faceup which is essentially unselecting them
+                    }else{
+                        cardsToUnplayable.faceUp = NO;
+                    }
+                
+                }
+                self.score += score;
+            }
+        }
+        
+    }
+}
+
 
 @end

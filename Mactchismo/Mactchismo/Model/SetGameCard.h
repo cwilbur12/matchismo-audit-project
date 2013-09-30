@@ -21,4 +21,6 @@
 + (NSArray *) validColors;
 + (NSArray *) validShades;//jave to figure out how to display the shades
 
+- (NSUInteger)match:(NSArray *)selectedCards;
+
 @end

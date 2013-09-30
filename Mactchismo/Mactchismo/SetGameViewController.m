@@ -14,16 +14,22 @@
 @interface SetGameViewController ()
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
 @property (strong, nonatomic) SetGame *game;
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
+@property (nonatomic) NSUInteger flipsCount;
 
 @end
 
 @implementation SetGameViewController
 
 - (IBAction)flipCard:(UIButton *)sender {
-
-    NSAttributedString *contents = [self.game runGame];
+    //make the card that was just picked selected
+    [self.game selectCardAtIndex:[self.cardButtons indexOfObject:sender]];
     
-    [sender setAttributedTitle:contents forState:UIControlStateNormal];
+    //increment flips count
+    self.flipsCount++;
+    
+    [self updateUI];
 }
 
 - (SetGame *)game{
@@ -39,6 +45,27 @@
         SetGameCard *card = (SetGameCard *)[self.game cardAtIndex:[self.cardButtons indexOfObject:cardButton]];
         [cardButton setAttributedTitle:[card attContents] forState:UIControlStateNormal];
     }
+}
+
+- (void)updateUI{
+    for(UIButton *cardButton in self.cardButtons){
+        Card *card =[self.game cardAtIndex:[self.cardButtons indexOfObject:cardButton]];
+        if(card.isFaceUp && !card.isUnplayable){
+            cardButton.selected = YES;
+        }else{
+            cardButton.selected = NO;
+        }
+        
+        cardButton.enabled = !card.isUnplayable;
+
+        cardButton.alpha = (card.isUnplayable ? 0.4 : 1.0);
+        
+
+    }
+    //things that need to be updated after every click
+    self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", self.game.score];
+    self.flipsLabel.text = [NSString stringWithFormat:@"Flips: %d", self.flipsCount];
+
 }
 
 

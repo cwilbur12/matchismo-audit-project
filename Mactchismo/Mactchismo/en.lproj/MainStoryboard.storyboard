@@ -104,7 +104,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kCu-ur-Ywr">
-                                <rect key="frame" x="20" y="171" width="50" height="63"/>
+                                <rect key="frame" x="20" y="159" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -116,7 +116,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VXO-Yd-cgX">
-                                <rect key="frame" x="78" y="171" width="50" height="63"/>
+                                <rect key="frame" x="78" y="159" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -128,7 +128,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IG4-Lq-cyX">
-                                <rect key="frame" x="136" y="171" width="50" height="63"/>
+                                <rect key="frame" x="136" y="159" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -140,7 +140,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cwm-So-5rL">
-                                <rect key="frame" x="194" y="171" width="50" height="63"/>
+                                <rect key="frame" x="194" y="159" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -152,7 +152,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0bw-Pw-dfM">
-                                <rect key="frame" x="252" y="171" width="50" height="63"/>
+                                <rect key="frame" x="252" y="159" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -164,7 +164,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f8i-Qs-hVw">
-                                <rect key="frame" x="20" y="256" width="50" height="63"/>
+                                <rect key="frame" x="20" y="230" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -176,7 +176,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CXZ-IV-3oJ">
-                                <rect key="frame" x="78" y="256" width="50" height="63"/>
+                                <rect key="frame" x="78" y="230" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -188,7 +188,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="K7I-wv-JXK">
-                                <rect key="frame" x="136" y="256" width="50" height="63"/>
+                                <rect key="frame" x="136" y="230" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -200,7 +200,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OJz-Gf-We3">
-                                <rect key="frame" x="194" y="256" width="50" height="63"/>
+                                <rect key="frame" x="194" y="230" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -212,7 +212,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cjx-ot-tjE">
-                                <rect key="frame" x="252" y="256" width="50" height="63"/>
+                                <rect key="frame" x="252" y="230" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -224,7 +224,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="h9K-Yw-2yH">
-                                <rect key="frame" x="19" y="327" width="50" height="63"/>
+                                <rect key="frame" x="20" y="301" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -236,7 +236,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Ro-LN-Fvy">
-                                <rect key="frame" x="77" y="327" width="50" height="63"/>
+                                <rect key="frame" x="76" y="301" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -248,7 +248,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rry-X8-5h4">
-                                <rect key="frame" x="135" y="327" width="50" height="63"/>
+                                <rect key="frame" x="134" y="301" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -260,7 +260,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mjB-GB-bGE">
-                                <rect key="frame" x="193" y="327" width="50" height="63"/>
+                                <rect key="frame" x="192" y="301" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -272,7 +272,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="szC-qd-9fA">
-                                <rect key="frame" x="251" y="327" width="50" height="63"/>
+                                <rect key="frame" x="250" y="301" width="50" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="">
@@ -359,21 +359,21 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Flips:0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PVA-ur-gvj">
-                                <rect key="frame" x="20" y="470" width="92" height="31"/>
+                                <rect key="frame" x="20" y="481" width="92" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Score: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Cw-hf-CQb">
-                                <rect key="frame" x="208" y="470" width="92" height="31"/>
+                                <rect key="frame" x="208" y="481" width="92" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mwj-f4-ggx">
-                                <rect key="frame" x="120" y="470" width="73" height="33"/>
+                                <rect key="frame" x="120" y="480" width="73" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Deal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -382,15 +382,15 @@
                                     <action selector="resetGame:" destination="2" eventType="touchUpInside" id="FzT-4U-Eha"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z1s-fj-uyx">
-                                <rect key="frame" x="18" y="430" width="285" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;Label>" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z1s-fj-uyx">
+                                <rect key="frame" x="18" y="451" width="285" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="v3c-Vs-Z34">
-                                <rect key="frame" x="16" y="15" width="101" height="64"/>
+                                <rect key="frame" x="18" y="20" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -405,8 +405,8 @@
                                     <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="HL6-58-Uu6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="b05-i1-GZC">
-                                <rect key="frame" x="143" y="15" width="101" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="mSc-b2-mYa">
+                                <rect key="frame" x="89" y="20" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -418,11 +418,11 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="doO-3f-qe8"/>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="7CM-B0-LU2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="uUM-3L-V1L">
-                                <rect key="frame" x="16" y="87" width="101" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="zCo-di-ocB">
+                                <rect key="frame" x="160" y="20" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -434,11 +434,11 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="9st-Kc-0qR"/>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="Vbj-nZ-lcs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Xvl-mU-Yvi">
-                                <rect key="frame" x="143" y="87" width="101" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="ZXL-Mu-MXy">
+                                <rect key="frame" x="231" y="20" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -450,11 +450,11 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="Qx4-s6-6vS"/>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="5l2-Jf-nOG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Sco-rn-b6r">
-                                <rect key="frame" x="16" y="159" width="101" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="vI1-Xu-HKx">
+                                <rect key="frame" x="18" y="92" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -466,11 +466,11 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="dBG-DS-1Jx"/>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="kNv-iH-Ii7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="9tY-Ye-up9">
-                                <rect key="frame" x="143" y="159" width="101" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="tIa-Eo-ybX">
+                                <rect key="frame" x="89" y="92" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -482,11 +482,11 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="wdU-T2-Bx1"/>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="5lI-mN-faq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="4v8-ib-7iU">
-                                <rect key="frame" x="16" y="231" width="101" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="TOc-ok-aVF">
+                                <rect key="frame" x="160" y="92" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -498,11 +498,11 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="cO9-LW-2UH"/>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="bE7-op-typ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Bpp-pa-vvB">
-                                <rect key="frame" x="143" y="231" width="101" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="6ed-9K-Yqc">
+                                <rect key="frame" x="231" y="92" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -514,11 +514,11 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="fTE-Em-N3O"/>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="rLe-cT-vhs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="mwF-yV-b5A">
-                                <rect key="frame" x="16" y="303" width="101" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="CF7-dY-IHG">
+                                <rect key="frame" x="18" y="164" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -530,11 +530,11 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="zxI-Fh-GO4"/>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="44G-l3-Xhy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="4vA-3v-Ci6">
-                                <rect key="frame" x="143" y="303" width="101" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="3a6-7d-rYK">
+                                <rect key="frame" x="89" y="164" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -546,7 +546,231 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="mFq-c4-kBa"/>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="cOr-zT-Wp9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="2g5-ge-RxG">
+                                <rect key="frame" x="160" y="164" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="v5w-1L-63V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="mWI-Ju-Gga">
+                                <rect key="frame" x="231" y="164" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="3sU-33-z3s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="qAN-Vu-hrc">
+                                <rect key="frame" x="18" y="236" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="a4n-sE-2Su"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="UPc-UG-ctH">
+                                <rect key="frame" x="89" y="236" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="V3z-sk-oGB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="ccY-AB-9Nx">
+                                <rect key="frame" x="160" y="236" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="2ua-2y-aqg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="n2A-SY-UUu">
+                                <rect key="frame" x="231" y="236" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="Lbr-is-g1M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="g1d-r3-Fho">
+                                <rect key="frame" x="18" y="308" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="K0q-Gc-51i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="1fy-kk-evt">
+                                <rect key="frame" x="89" y="308" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="iXF-Ol-H52"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="mZP-Yg-CDK">
+                                <rect key="frame" x="160" y="308" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="O8e-4a-bx2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="OR3-RL-Dkc">
+                                <rect key="frame" x="231" y="308" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="GFk-H5-Twx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="9jz-Hu-kt9">
+                                <rect key="frame" x="18" y="380" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="4Yh-r7-slB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="3ym-D6-eIr">
+                                <rect key="frame" x="89" y="380" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="UYW-cg-EkF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="NPf-Xd-Wjz">
+                                <rect key="frame" x="160" y="380" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="pE9-Qx-JlN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="xZl-00-OKY">
+                                <rect key="frame" x="231" y="380" width="63" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="rW3-o5-Bnl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -554,16 +778,32 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Set Game" image="diamond.png" id="fgW-vg-nf4"/>
                     <connections>
+                        <outlet property="flipsLabel" destination="PVA-ur-gvj" id="8Tg-ij-C47"/>
+                        <outlet property="scoreLabel" destination="3Cw-hf-CQb" id="FTX-N1-4rn"/>
                         <outletCollection property="cardButtons" destination="v3c-Vs-Z34" id="Q2H-wD-FAa"/>
-                        <outletCollection property="cardButtons" destination="b05-i1-GZC" id="YQN-6p-ElW"/>
-                        <outletCollection property="cardButtons" destination="uUM-3L-V1L" id="LRt-hm-VZk"/>
-                        <outletCollection property="cardButtons" destination="Xvl-mU-Yvi" id="H8F-6f-0Qi"/>
-                        <outletCollection property="cardButtons" destination="4v8-ib-7iU" id="qWX-av-F9n"/>
-                        <outletCollection property="cardButtons" destination="Bpp-pa-vvB" id="DOP-uJ-2Ah"/>
-                        <outletCollection property="cardButtons" destination="mwF-yV-b5A" id="Je5-le-eCj"/>
-                        <outletCollection property="cardButtons" destination="4vA-3v-Ci6" id="phi-zQ-nyn"/>
-                        <outletCollection property="cardButtons" destination="Sco-rn-b6r" id="dX3-Xs-cn0"/>
-                        <outletCollection property="cardButtons" destination="9tY-Ye-up9" id="lbi-sa-sGd"/>
+                        <outletCollection property="cardButtons" destination="mSc-b2-mYa" id="Bts-oD-2pd"/>
+                        <outletCollection property="cardButtons" destination="zCo-di-ocB" id="96n-ic-f3t"/>
+                        <outletCollection property="cardButtons" destination="ZXL-Mu-MXy" id="7FZ-0g-9Re"/>
+                        <outletCollection property="cardButtons" destination="vI1-Xu-HKx" id="t2N-sT-09Q"/>
+                        <outletCollection property="cardButtons" destination="tIa-Eo-ybX" id="Cmi-Kr-wxw"/>
+                        <outletCollection property="cardButtons" destination="TOc-ok-aVF" id="vPC-RL-Bog"/>
+                        <outletCollection property="cardButtons" destination="6ed-9K-Yqc" id="bUj-wi-zyy"/>
+                        <outletCollection property="cardButtons" destination="CF7-dY-IHG" id="Mor-3M-tte"/>
+                        <outletCollection property="cardButtons" destination="3a6-7d-rYK" id="dne-Mz-khy"/>
+                        <outletCollection property="cardButtons" destination="2g5-ge-RxG" id="Ze4-jn-MWY"/>
+                        <outletCollection property="cardButtons" destination="mWI-Ju-Gga" id="jQm-AD-Gez"/>
+                        <outletCollection property="cardButtons" destination="qAN-Vu-hrc" id="0B5-wQ-sAk"/>
+                        <outletCollection property="cardButtons" destination="UPc-UG-ctH" id="CNo-SJ-67x"/>
+                        <outletCollection property="cardButtons" destination="ccY-AB-9Nx" id="zQT-pc-rGh"/>
+                        <outletCollection property="cardButtons" destination="n2A-SY-UUu" id="YVF-FR-1PZ"/>
+                        <outletCollection property="cardButtons" destination="g1d-r3-Fho" id="5Xp-PK-Cdc"/>
+                        <outletCollection property="cardButtons" destination="1fy-kk-evt" id="48o-L8-C4q"/>
+                        <outletCollection property="cardButtons" destination="mZP-Yg-CDK" id="bFH-yD-ZQO"/>
+                        <outletCollection property="cardButtons" destination="OR3-RL-Dkc" id="XWt-wv-5o4"/>
+                        <outletCollection property="cardButtons" destination="9jz-Hu-kt9" id="Zgb-Dx-xOi"/>
+                        <outletCollection property="cardButtons" destination="3ym-D6-eIr" id="mOd-JK-9s4"/>
+                        <outletCollection property="cardButtons" destination="NPf-Xd-Wjz" id="OJ8-BL-vf5"/>
+                        <outletCollection property="cardButtons" destination="xZl-00-OKY" id="jG5-BV-1fH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vfs-zh-8jd" userLabel="First Responder" sceneMemberID="firstResponder"/>
