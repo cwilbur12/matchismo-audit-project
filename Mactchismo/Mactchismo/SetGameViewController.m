@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 @property (nonatomic) NSUInteger flipsCount;
+@property (weak, nonatomic) IBOutlet UILabel *informationLabel;
 
 @end
 
@@ -48,8 +49,9 @@
 }
 
 - (void)updateUI{
+    
     for(UIButton *cardButton in self.cardButtons){
-        Card *card =[self.game cardAtIndex:[self.cardButtons indexOfObject:cardButton]];
+        SetGameCard *card = (SetGameCard *)[self.game cardAtIndex:[self.cardButtons indexOfObject:cardButton]];
         if(card.isFaceUp && !card.isUnplayable){
             cardButton.selected = YES;
         }else{
@@ -58,7 +60,7 @@
         
         cardButton.enabled = !card.isUnplayable;
 
-        cardButton.alpha = (card.isUnplayable ? 0.4 : 1.0);
+        cardButton.alpha = (card.isUnplayable ? 0.1 : 1.0);
         
 
     }

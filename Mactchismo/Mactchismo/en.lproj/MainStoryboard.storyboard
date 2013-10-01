@@ -382,13 +382,6 @@
                                     <action selector="resetGame:" destination="2" eventType="touchUpInside" id="FzT-4U-Eha"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;Label>" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z1s-fj-uyx">
-                                <rect key="frame" x="18" y="451" width="285" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="v3c-Vs-Z34">
                                 <rect key="frame" x="18" y="20" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -757,8 +750,15 @@
                                     <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="pE9-Qx-JlN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;Label>" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z1s-fj-uyx">
+                                <rect key="frame" x="9" y="451" width="285" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="xZl-00-OKY">
-                                <rect key="frame" x="231" y="380" width="63" height="64"/>
+                                <rect key="frame" x="222" y="380" width="63" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -779,6 +779,7 @@
                     <tabBarItem key="tabBarItem" title="Set Game" image="diamond.png" id="fgW-vg-nf4"/>
                     <connections>
                         <outlet property="flipsLabel" destination="PVA-ur-gvj" id="8Tg-ij-C47"/>
+                        <outlet property="informationLabel" destination="Z1s-fj-uyx" id="5yf-NC-jDp"/>
                         <outlet property="scoreLabel" destination="3Cw-hf-CQb" id="FTX-N1-4rn"/>
                         <outletCollection property="cardButtons" destination="v3c-Vs-Z34" id="Q2H-wD-FAa"/>
                         <outletCollection property="cardButtons" destination="mSc-b2-mYa" id="Bts-oD-2pd"/>

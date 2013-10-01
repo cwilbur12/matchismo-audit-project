@@ -56,7 +56,7 @@
     NSMutableArray *cardsSelected = [[NSMutableArray alloc]init];
     
     for(Card *cardToMatch in self.gameCards){
-        if(cardToMatch.isFaceUp){
+        if(cardToMatch.isFaceUp && !cardToMatch.unplayable){
             [cardsSelected addObject:cardToMatch];
             if([cardsSelected count] == 3){
                 NSUInteger score = [card match:cardsSelected];
@@ -77,6 +77,18 @@
             }
         }
         
+    }
+}
+
+- (void)setInformationStringFromArray:(NSArray *)infoCards{
+    NSUInteger numOfCards = [infoCards count];
+    NSAttributedString *infoString = [[NSAttributedString alloc] init];
+    
+    if(numOfCards == 1){
+        SetGameCard *card = infoCards[0];
+        //add string logic
+        //still unsure how exactly you have to do the string concatination from a att string to a string
+        //and if i use a normal string will all its attributs go away 
     }
 }
 

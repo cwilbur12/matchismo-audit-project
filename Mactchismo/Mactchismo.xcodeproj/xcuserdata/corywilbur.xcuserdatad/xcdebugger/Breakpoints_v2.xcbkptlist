@@ -41,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Mactchismo/Model/SetGame.m"
-            timestampString = "402202118.491487"
+            filePath = "Mactchismo/Model/SetGameCard.m"
+            timestampString = "402201782.390862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "-selectCardAtIndex:"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "-propsOfCardsMatchWithProp:And:And:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,13 +57,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Mactchismo/Model/SetGameCard.m"
-            timestampString = "402201782.390862"
+            filePath = "Mactchismo/Model/SetGame.m"
+            timestampString = "402283715.629219"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
-            landmarkName = "-propsOfCardsMatchWithProp:And:And:"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-selectCardAtIndex:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
