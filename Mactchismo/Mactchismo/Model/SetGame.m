@@ -10,6 +10,12 @@
 #import "SetGameCard.h"
 #import "SetGameCardDeck.h"
 
+@interface SetGame()
+
+@property (nonatomic)BOOL isSet;
+
+@end
+
 @implementation SetGame
 
 - (id)initWithCardCount:(NSUInteger)numCards{
@@ -66,10 +72,12 @@
                     //if positive match score then make them unplayable
                     if(score == 100){
                         cardsToUnplayable.unplayable = YES;
+                        self.isSet = YES;
                         
                     //else make them not faceup which is essentially unselecting them
                     }else{
                         cardsToUnplayable.faceUp = NO;
+                        self.isSet = NO;
                     }
                 
                 }
@@ -78,17 +86,85 @@
         }
         
     }
+    
+    [self setInformationStringFromArray:cardsSelected];
 }
 
 - (void)setInformationStringFromArray:(NSArray *)infoCards{
     NSUInteger numOfCards = [infoCards count];
-    NSAttributedString *infoString = [[NSAttributedString alloc] init];
+    
+    NSDictionary *attributes = @{NSFontAttributeName : [UIFont systemFontOfSize:12],
+                                 NSForegroundColorAttributeName: [UIColor blackColor]};
     
     if(numOfCards == 1){
         SetGameCard *card = infoCards[0];
-        //add string logic
-        //still unsure how exactly you have to do the string concatination from a att string to a string
-        //and if i use a normal string will all its attributs go away 
+        
+        NSMutableAttributedString *attInfoString = [[card attContents] mutableCopy];
+        
+        NSMutableAttributedString *attStringToAppend = [[NSMutableAttributedString alloc] initWithString:@"  is selected"
+                                                                                              attributes:attributes];
+        [attInfoString appendAttributedString:attStringToAppend];
+        
+        self.informationString = attInfoString;
+        
+    }else if (numOfCards == 2){
+        SetGameCard *firstCard = infoCards[0];
+        SetGameCard *secondCard = infoCards[1];
+        NSMutableAttributedString *firstCardAttContents = [[firstCard attContents] mutableCopy];
+        NSMutableAttributedString *secondCardAttContents = [[secondCard attContents] mutableCopy];
+        
+        NSMutableAttributedString *firstInfoString = [[NSMutableAttributedString alloc] initWithString: @"  and  "
+                                                                                            attributes:attributes];
+        NSMutableAttributedString *secondInfoString = [[NSMutableAttributedString alloc] initWithString: @"  are selected  "
+                                                                                             attributes:attributes];
+        
+        [firstCardAttContents appendAttributedString:firstInfoString];
+        
+        [secondCardAttContents appendAttributedString:secondInfoString];
+        
+        [firstCardAttContents appendAttributedString:secondCardAttContents];
+        
+        self.informationString = firstCardAttContents;
+
+    }else if(numOfCards == 3){
+        SetGameCard *firstCard = infoCards[0];
+        SetGameCard *secondCard = infoCards[1];
+        SetGameCard *thirdCard = infoCards[2];
+        
+        NSMutableAttributedString *firstCardAttContents = [[firstCard attContents] mutableCopy];
+        NSMutableAttributedString *secondCardAttContents = [[secondCard attContents] mutableCopy];
+        NSMutableAttributedString *thirdCardAttContents = [[thirdCard attContents] mutableCopy];
+        
+        NSMutableAttributedString *firstInfoString = [[NSMutableAttributedString alloc] initWithString: @","
+                                                                                            attributes:attributes];
+        NSMutableAttributedString *secondInfoString = [[NSMutableAttributedString alloc] initWithString: @" selected no set  "
+                                                                                             attributes:attributes];
+        
+        NSMutableAttributedString *winInfoString = [[NSMutableAttributedString alloc] initWithString: @" set found!"
+                                                                                             attributes:attributes];
+
+        [firstCardAttContents appendAttributedString:firstInfoString];
+        
+        [secondCardAttContents appendAttributedString:firstInfoString];
+        
+        [firstCardAttContents appendAttributedString:secondCardAttContents];
+        
+        
+        if (self.isSet) {
+            [thirdCardAttContents appendAttributedString:winInfoString];
+
+        }else{
+            [thirdCardAttContents appendAttributedString:secondInfoString];
+        }
+        
+        [firstCardAttContents appendAttributedString:thirdCardAttContents];
+        
+        self.informationString = firstCardAttContents;
+        
+    }else{//if the card is unselected or the cards array is 0;
+        
+        self.informationString = [[NSAttributedString alloc] initWithString:@""];
+        
     }
 }
 

@@ -379,6 +379,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="dealButton:" destination="mhh-8V-dYH" eventType="touchUpInside" id="ZHM-D5-PHc"/>
                                     <action selector="resetGame:" destination="2" eventType="touchUpInside" id="FzT-4U-Eha"/>
                                 </connections>
                             </button>
@@ -750,7 +751,7 @@
                                     <action selector="flipCard:" destination="mhh-8V-dYH" eventType="touchUpInside" id="pE9-Qx-JlN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt;Label>" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z1s-fj-uyx">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z1s-fj-uyx">
                                 <rect key="frame" x="9" y="451" width="285" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -778,6 +779,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Set Game" image="diamond.png" id="fgW-vg-nf4"/>
                     <connections>
+                        <outlet property="dealButton" destination="mwj-f4-ggx" id="SrY-e2-4zz"/>
                         <outlet property="flipsLabel" destination="PVA-ur-gvj" id="8Tg-ij-C47"/>
                         <outlet property="informationLabel" destination="Z1s-fj-uyx" id="5yf-NC-jDp"/>
                         <outlet property="scoreLabel" destination="3Cw-hf-CQb" id="FTX-N1-4rn"/>

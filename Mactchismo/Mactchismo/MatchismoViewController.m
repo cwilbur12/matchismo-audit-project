@@ -124,7 +124,6 @@
 - (void)setButtonBorder:(UIButton *)cardButton{
     cardButton.layer.BorderWidth = 1;
     cardButton.layer.CornerRadius = 4;
-    //cardButton.layer.borderColor = [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0].CGColor;
     cardButton.layer.borderColor = [cardButton titleColorForState: UIControlStateNormal].CGColor;
 }
 
