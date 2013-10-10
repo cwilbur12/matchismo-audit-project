@@ -80,6 +80,8 @@
                         self.isSet = NO;
                     }
                 
+                    
+                    
                 }
                 self.score += score;
             }
